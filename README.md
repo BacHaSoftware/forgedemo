@@ -16,7 +16,7 @@
     > npm install
   2. Update the **Client ID** and **Client Secret** and run server: 
   - *Method 1*: On the terminal type:
-  FORGE_CLIENT_ID=<<YOUR CLIENT ID FROM DEVELOPER PORTAL>> FORGE_CLIENT_SECRET=<<YOUR CLIENT SECRET>> npm start
+  FORGE_CLIENT_ID=<<*YOUR CLIENT ID FROM DEVELOPER PORTAL*>> FORGE_CLIENT_SECRET=<<*YOUR CLIENT SECRET*>> npm start
   - *Method 2*: On the repository folder, open file config.js and update the **FORGE_CLIENT_ID** and **FORGE_CLIENT_SECRET** then on the terminal type `npm start`
 
   Open the browser: http://localhost:3000.

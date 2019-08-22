@@ -1,0 +1,7 @@
+# https://docs.docker.com/engine/reference/builder/#dockerignore-file
+# Don't send the following files to the docker daemon as the build context.
+**/node_modules
+.git
+.gitattributes
+.travis.yml
+README.md

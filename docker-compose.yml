@@ -1,0 +1,20 @@
+version: '2'
+services:
+  bh-forge:
+    container_name: bh-forge
+    build: 
+      context: ./
+      dockerfile: dockerfile    
+    image: b3/bh-forge
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "8801:3000"
+    # volumes:
+    #   - /mockup-data:/usr/src/sbit
+    restart: always
+
+networks:
+  default:
+    external:
+      name: p1_default
